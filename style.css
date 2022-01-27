@@ -1,4 +1,11 @@
 
+.header-bar-nav {
+    font-size : 1rem;
+    background-color: rgb(128, 163, 177);
+    color: white;
+}
+
+
 .under-construction {
     text-align: center;
     font-size: 1cm;
