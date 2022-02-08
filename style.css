@@ -1,79 +1,115 @@
-/* général */
+/* Variables */
+:root {
+    /*--main-color: rgb(128, 163, 177);*/
+    --main-color: rgb(171, 166, 221);
+}
+
+/* General setup */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 25px;
+}
+
 main {
-    margin-top: 1cm;
-    margin-left: 1cm;
+    margin-top: 1em;
+    margin-left: 10cm;
 }
 
 footer {
-    margin-left: 1cm;
+    margin-left: 10cm;
+    font-size: 15px;
 }
 
-article {
-    text-align: center;
+.link {
+    text-decoration: none;
 }
 
-/* aside */
-aside {
-    flex: 1;
+.internet-link {
+    color: #0645ad;
 }
 
-.nav-aside {
+ /* typography */
+  
+  p, li {
+    line-height: 1.5;
+  }
+
+/* header layout */
+nav, article, aside, footer {
+    padding: 1px;
 }
 
-.ul-aside {
+nav {
+    margin-bottom: 10px;
+}
+
+nav ul {
     list-style-type: none;
 }
 
-.a-aside {
-    font-size:larger;
-    text-decoration: none;
+nav a {
+    color: black;
 }
+
 
 /* barre de navigation en tête du site */
-.nav-bar-nav {
-    background-color: rgb(128, 163, 177);
-    height: 50px;
-    display: flex;
+header {
+    background-color: var(--main-color);
 }
 
-.ul-bar-nav {
-    list-style-type: none;
-    display: inline-flex;
+.li-header {
+    display: inline-block;
 }
 
-.a-bar-nav {
+.a-header {
+    display: inline-block;
     font-size : 1rem;
-    display: inline;
-    text-decoration: none;
     color: white;
+    width: 4em;
 }
 
+/* sidebar */
+#sidebar {
+    margin-top: 2em;
+    width: 10cm;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#sidebar a{
+    display: block;
+    padding: 10px 40px;
+}
+
+
+/* Homepage */
+#todolist {
+    font-size: 17px;
+}
 
 /* About */
 #under-construction {
-    text-align: center;
     font-size: 1cm;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#chichi {
-    background-color :royalblue;
-    margin-left:36%;
-    margin-right: 36%;
-    margin-top: 1cm;
-    margin-bottom: 2cm;
-    text-align: center;
-    font-size: 3cm;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+#canvas-chichi {
+    background-color: royalblue;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
-#gifConstruction {
-    text-align: center;
+#gif-construction {
+    margin-left: 80px;
 }
 
 /* TP 3 */
 #canvas {
-    background-color:rgb(145, 172, 182);
+    background-color: var(--main-color);
 }
 

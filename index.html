@@ -8,44 +8,68 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav-bar-nav">
-          <ul class="ul-bar-nav">
-            <li>
-              <a class="a-bar-nav" href="index.html">Home</a>
+
+  <header>
+    <nav class="nav-header">
+        <ul class="ul-header">
+        <li class="li-header">
+            <a class="a-header link" href="#">Home</a>
+        </li>
+        <li class="li-header">
+            <a class="a-header link" href="apropos.html">About</a>
+        </li>
+        </ul>
+    </nav>
+  </header>
+    
+  <nav id="sidebar">
+      <a class="link" href="tp1.html">TP 1</a>
+      <a class="link" href="tp2.html">TP 2</a>      
+      <a class="link" href="tp3.html">TP 3</a>
+  </nav>
+
+    <main>
+      <article>
+        <h2>Ha's website</h2>
+        <p>
+          Welcome on Ha's first website homepage. <br>
+          This website will be dedicated to the work completed under the course of web programming. 
+        </p>
+        <p>
+            This is the <a class="link internet-link" href="accueilbarreaud.html">original homepage</a> on which this one is based.
+        </p>
+
+        <div id="todolist">
+          To do list :
+          <ul>
+            <li id="todolist">
+              mettre du code en commun (menu - php)
             </li>
-            <li>
-              <a class="a-bar-nav" href="mestp.html">TP</a>
+            <li id="todolist">
+              gérer la sidebar lors du mouvement de la page
             </li>
-            <li>
-              <a class="a-bar-nav" href="apropos.html">About</a>
+            <li id="todolist">
+              à rajouter dans la header nav bar : mes réseaux
+            </li>
+            <li id="todolist">
+              sidebar - items qui ouvrent une liste déroulante lorsqu'il y a plusieurs exos
+            </li>
+            <li id="todolist">
+              mettre un lien vers la ref sur le gif construction 
+            </li>
+            <li id="todolist">
+              liens vers des pages qui me sont utiles (drive, moodle jsp random)
+            </li>
+            <li id="todolist">
+              ranger mes fichiers dans des dossiers
+            </li>
+            <li id="todolist">
+              homogénéiser la couleur favicon/couleur du site
             </li>
           </ul>
-        </nav>
-    </header>
-
-     <main>
-      <article>
-        <h2>Mes travaux en Technologies Web</h2>
-        <p>
-            Cette page permet l'accès à mes différents tp et différentes catégories de travaux : HTML / JS / PHP / Vue.
-        </p>
-
-        <h3>Ce qu'il faut faire</h3>
-        <p> 
-            Chaque catégorie aura sa page d'accueil, sur le même format. Ces pages d'accueil pointeront vers des pages réalisées en cours. 
-            Par exemple, la catégorie HTML contiendra une page affichant une image et une autre contenant un élément vidéo.  
-            Attention, vous réfléchirez à l'arborescence de votre répertoire pour assurer l'uniformité de la présentation.
-        </p>
-        
-        <h3>Bonus</h3>
-        <ul>
-          <li>Modifiez la CSS à votre goût.</li>
-          <li>Créez une page "qui suis-je" avec votre CV</li>
-          <li>Quel type de copyright devriez vous mettre?</li>
-        </ul>
+        </div>
       </article>
-      </main>
+    </main>
 
     <footer>
       <p>©Copyright AH</p>

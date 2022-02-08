@@ -4,40 +4,35 @@
         <title>A propos</title>
         <link rel="icon" type="image/x-icon" href="./favicon.ico">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="writeoncanvas.js"></script>
     </head>
-    <body>
+    <body onload="write()">
+      
       <header>
-        <nav class="header-bar-nav">
-            <ul class="list-bar-nav">
-              <li>
-                <a class="link-bar-nav" href="index.html">Home</a>
-              </li>
-              <li>
-                <a class="link-bar-nav" href="mestp.html">TP</a>
-              </li>
-              <li>
-                <a class="link-bar-nav" href="apropos.html">About</a>
-              </li>
+        <nav class="nav-header">
+            <ul class="ul-header">
+            <li class="li-header">
+                <a class="a-header link" href="index.html">Home</a>
+            </li>
+            <li class="li-header">
+                <a class="a-header link" href="apropos.html">About</a>
+            </li>
             </ul>
-          </nav>
+        </nav>
       </header>
         
         <main>
-                Site d'Angeline Ha, étudiante à l'<a href="https://www.enssat.fr">ENSSAT</a>
-        <br>
+          <p>
+            Site d'Angeline Ha, étudiante à l'<a class="link internet-link" href="https://www.enssat.fr">ENSSAT</a>.
+          </p>
 
-        <div id="under-construction">
-            UNDER CONSTRUCTION
-        </div>
-        <div id="chichi">
-            CHICHI
-        </div>
-        
-
-        <div id="gifConstruction">
-            <img src="./under-construction.gif" alt="gif under construction">
-        </div>
-
+          <div id="under-construction">
+              UNDER CONSTRUCTION
+          </div>
+          <canvas id="canvas-chichi" width="450" height="150"></canvas>
+          <div id="gif-construction">
+              <a href="https://sceendy.com/dm/"><img src="./under-construction.gif" alt="gif under construction"></a>
+          </div>
         </main>
     </body>
 </html>

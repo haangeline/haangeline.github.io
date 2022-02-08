@@ -10,45 +10,32 @@
 
   <body onload="exec()">
     <header>
-        <nav class="nav-bar-nav">
-            <ul class="ul-bar-nav">
-              <li>
-                <a class="a-bar-nav" href="index.html">Home</a>
-              </li>
-              <li>
-                <a class="a-bar-nav" href="mestp.html">TP</a>
-              </li>
-              <li>
-                <a class="a-bar-nav" href="apropos.html">About</a>
-              </li>
-            </ul>
-          </nav>
-      </header>
-    
-    <main> 
-        <aside>
-            <nav>
-            <ul>
-                <li>
-                <a href="tp1.html">tp1</a>
-                </li>
-                <li>
-                <a href="tp2.html">tp2</a>
-                </li>
-                <li>
-                <a href="tp3.html">tp3</a>
-                </li>
-            </ul>
-            </nav>  
-        </aside>
+      <nav class="nav-header">
+          <ul class="ul-header">
+          <li class="li-header">
+              <a class="a-header link" href="index.html">Home</a>
+          </li>
+          <li class="li-header">
+              <a class="a-header link" href="apropos.html">About</a>
+          </li>
+          </ul>
+      </nav>
+    </header>
+      
+    <nav id="sidebar">
+        <a class="link" href="tp1.html">TP 1</a>
+        <a class="link" href="tp2.html">TP 2</a>      
+        <a class="link" href="tp3.html">TP 3</a>
+    </nav>
 
-        <article>      
-            <h3>TP3</h3>
-            <h4>Exercice 1</h4>
-                On envoie une requête XHR au site <a href="https://stwom.herokuapp.com/">https://stwom.herokuapp.com</a>, qui nous renvoie des coordonnées (x,y). <br>
-                Ces coordonnées correspondent aux centres des cercles dessinés dans l'environnement ci-dessous : <br>
-                <canvas id="canvas" width="300" height="300"></canvas>
-        </article>   
+    <main>
+      <article>      
+          <h3>TP3</h3>
+          <h4>Exercice 1</h4>
+              On envoie une requête XHR au site <a class="link internet-link" href="https://stwom.herokuapp.com/">stwom.herokuapp.com</a>, qui nous renvoie des coordonnées (x,y). <br>
+              Ces coordonnées correspondent aux centres des cercles dessinés dans l'environnement ci-dessous : <br>
+              <canvas id="canvas" width="300" height="300"></canvas>
+      </article>   
     </main>
     
   </body>
